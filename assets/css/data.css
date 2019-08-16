@@ -54,7 +54,6 @@ td:nth-child(2){
 @media screen and (max-width: 600px) {
     .table {
         font-size: 6px; 
-        font-weight: bold;
     }
 
     .container-data .jumbotron{
