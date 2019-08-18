@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Abhaya+Libre:700|Roboto|Roboto+Condensed|Montserrat|Lora:400,700&display=swap");
+
 
 * {
 	margin: 0;
@@ -10,7 +12,13 @@ html, body {
 .container-all {
 	min-height: 100%;
 	background-color: #212529;
-  }
+}
+
+ .container-comparison {
+    width: 85%;
+    margin: 5% auto;
+	font-weight: bolder;
+}
 
 .main {
 	overflow: auto; 
@@ -62,7 +70,7 @@ html, body {
 .navbar-light .navbar-nav .show>.nav-link, 
 .navbar-light .navbar-nav .nav-link.disabled {
 	color:  #00A5A5;
-	opacity: 0.4;
+	opacity: 0.5;
 }
 .navbar-light .navbar-nav .nav-link,
 .dropdown-menu a {
@@ -71,7 +79,7 @@ html, body {
 .navbar-light .navbar-nav .nav-link:hover,
 .dropdown-menu a:hover {
     color:  #00A5A5;
-	opacity: 0.4;
+	opacity: 0.5;
 }
 .navbar form ul li {
 	font-weight: bold;
@@ -86,7 +94,6 @@ html, body {
 }
 
 .jumbotron p {
-	color: rgba(0,0,0,.5);
 	text-align:justify;
 }
 
@@ -101,16 +108,24 @@ h1, h2, h3, h4, h5 {
 p {
 	font-family: 'Lora', serif;
 	font-size: 0.9rem;
+	line-height: 1.6rem;
+	color: rgba(0,0,0,.6);
+
 }
+p::first-letter {
+	font-size: 1.5em;
+	padding-left: 1.5em;
+	color: rgba(0,0,0,.5);
+ }
 
 .row {
 	margin-top: 3%;
 }
 
 #first-picture {
-	width: 40%;
+	width: 50%;
 	float: left;
-	max-width: 340px;
+	max-width: 400px;
 }
 
 .second-picture {
@@ -150,22 +165,31 @@ hr {
     align-items: center;
 }
 
+.visualization{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .visualization img {
-	width: 80%;
-    margin: 1% 3% 3% 3%;
+	width: 65%;
+	margin: 0;
+	float: left;
 }
 
 .pictures img {
     width: 100%;
-    margin: 3% 0% 3% 0%;
+	padding: 0% 0% 0% 0%;
     cursor: pointer;
 	z-index: 10;
 	border: 3px double #FFFF;
+	margin-top: 3%;
 }
 
-.block-pictures {
-    width: 100%;
-	padding: 0% 0% 0% 0%;
+.pictures .graph-selected {
+	border-color: #00A5A5; 
+	cursor: not-allowed;
 }
 
 .pictures img:hover {
@@ -180,9 +204,11 @@ hr {
     margin-top: 2%;
 }
 
-.graph-selected {
-	border: 3px double #00A5A5; 
+.jumbotron
+{
+	box-shadow : 3px 3px 5px 0px black; 
 }
+
 
 @media screen and (max-width: 991px) {
 
@@ -196,7 +222,7 @@ hr {
 	.col-lg-4,
 	.col-lg-6,
 	.col-lg-7
-	 {
+	{
 		margin-bottom: 3%;
 	}
 	.navbar .lattitude {
@@ -214,4 +240,10 @@ hr {
 		padding: 1% 5% 1% 5%;
 	} 
 
+}
+
+@media screen and (max-width: 600px) {
+	.visualization img {
+		width: 90%;
+	}
 }
