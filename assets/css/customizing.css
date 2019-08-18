@@ -33,7 +33,7 @@ html, body {
 }
 
 .navbar .lattitude {
-	background-color: salmon;
+	background-color: #4e5a65;
 	color: #FFFFFF;
 	font-weight: bolder;
 	font-stretch: ultra-expanded; 
@@ -69,16 +69,16 @@ html, body {
 .navbar-light .navbar-nav .nav-link.show, 
 .navbar-light .navbar-nav .show>.nav-link, 
 .navbar-light .navbar-nav .nav-link.disabled {
-	color:  #00A5A5;
+	color:  #4e5a65;
 	opacity: 0.5;
 }
 .navbar-light .navbar-nav .nav-link,
 .dropdown-menu a {
-    color:  #00A5A5;
+    color:  #4e5a65;
 }
 .navbar-light .navbar-nav .nav-link:hover,
 .dropdown-menu a:hover {
-    color:  #00A5A5;
+    color:  #4e5a65;
 	opacity: 0.5;
 }
 .navbar form ul li {
@@ -88,7 +88,7 @@ html, body {
 .jumbotron {
 	border-radius: .15rem;
 	background-color: white;
-	color: #00A5A5;
+	color: #4e5a65;
 	margin:0; 
     padding: 2.5rem 2rem 1.5rem 2rem;
 }
@@ -134,16 +134,16 @@ p::first-letter {
 }
 
 hr {
-	border-color: #00A5A5;
+	border-color: #4e5a65;
 	opacity: 0.3;
 }
 
 .footer {
 	position: relative;
-	background-color:  #636363;
+	background-color:  #4e5a65;
 	height: 50px;
 	margin-top: -50px; 
-	border-top: 3px solid #00A5A5;
+	border-top: 3px solid #025db1;
 	display: flex;
 	flex-direction: column; 
 	justify-content: center;
@@ -187,12 +187,12 @@ hr {
 }
 
 .pictures .graph-selected {
-	border-color: #00A5A5; 
+	border-color: #4e5a65; 
 	cursor: not-allowed;
 }
 
 .pictures img:hover {
-	border-color: #00A5A5;
+	border-color: #4e5a65;
 }
 
 .pictures a {
@@ -216,7 +216,7 @@ hr {
 	}
 
 	.navbar {
-		background-color: #00A5A5;
+		background-color: #4e5a65;
 	}
 	.col-lg-4,
 	.col-lg-6,
