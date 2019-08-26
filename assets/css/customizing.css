@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Abhaya+Libre:700|Roboto|Roboto+Condensed|Montserrat|Lora:400,700&display=swap");
 
-
 * {
 	margin: 0;
 	padding: 0;
@@ -11,17 +10,11 @@ html, body {
 
 .container-all {
 	min-height: 100%;
-	background-color: #212529;
-}
-
- .container-comparison {
-    width: 85%;
-    margin: 5% auto;
-	font-weight: bolder;
+	background-color: #FFFFFF; /* #212529;*/ 
 }
 
 .main {
-	overflow: auto; 
+	/*overflow: auto; */
 	padding-bottom: 53px; 
 }
 
@@ -32,7 +25,7 @@ html, body {
 	background-color: #FFFFFF;
 }
 
-.navbar .lattitude {
+.navbar .portifolio {
 	background-color: #4e5a65;
 	color: #FFFFFF;
 	font-weight: bolder;
@@ -47,7 +40,7 @@ html, body {
 	font-family: 'Abhaya Libre', serif;
 }
 
-.navbar .lattitude:hover {
+.navbar .portifolio:hover {
 	color: rgb(130, 245, 235);
 	transition: all 0.5s ease-in-out;
 }
@@ -84,23 +77,7 @@ html, body {
 .navbar form ul li {
 	font-weight: bold;
 }
-/*
-.jumbotron {
-	border-radius: .15rem;
-	background-color: white;
-	color: #4e5a65;
-	margin:0; 
-    padding: 2.5rem 2rem 1.5rem 2rem;
-}
 
-.jumbotron p {
-	text-align:justify;
-}*/
-/*
-.container {
-	max-width: 100%;
-}
-*/
 h1, h2, h3, h4, h5 {
 	font-family: 'Abhaya Libre', serif;
 }
@@ -110,6 +87,7 @@ p {
 	font-size: 0.9rem;
 	line-height: 1.6rem;
 	color: rgba(0,0,0,.6);
+	width: 50%;
 
 }
 p::first-letter {
@@ -118,25 +96,6 @@ p::first-letter {
 	color: rgba(0,0,0,.5);
  }
 
-.row {
-	margin-top: 3%;
-}
-
-#first-picture {
-	width: 50%;
-	float: left;
-	max-width: 400px;
-}
-
-.second-picture {
-	width: inherit;
-	margin: 5% 0% 5% 0%;
-}
-
-hr {
-	border-color: #4e5a65;
-	opacity: 0.3;
-}
 
 .footer {
 	position: relative;
@@ -156,64 +115,18 @@ hr {
 	color: white;
 }
 
-.pictures,
-.pictures a {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.visualization{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.visualization img {
-	width: 65%;
-	margin: 0;
-	float: left;
-}
-
-.pictures img {
-    width: 100%;
-	padding: 0% 0% 0% 0%;
-    cursor: pointer;
-	z-index: 10;
-	border: 3px double #FFFF;
-	margin-top: 3%;
-}
-
-.pictures .graph-selected {
-	border-color: #4e5a65; 
-	cursor: not-allowed;
-}
-
-.pictures img:hover {
-	border-color: #4e5a65;
-}
-
-.pictures a {
-    z-index: 10;    
-}
-
-.pictures h3 {
-    margin-top: 2%;
-}
-
-.jumbotron
-{
-	box-shadow : 3px 3px 5px 0px black; 
+.position { 
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    /*z-index:20;*/
 }
 
 
 @media screen and (max-width: 991px) {
-
-	#first-picture {
-		width: 35%;
-	}
 
 	.navbar {
 		background-color: #4e5a65;
@@ -224,7 +137,7 @@ hr {
 	{
 		margin-bottom: 3%;
 	}
-	.navbar .lattitude {
+	.navbar .portifolio {
 		margin-left: 0px;
 	}
 
@@ -240,13 +153,26 @@ hr {
 	} 
 
 }
-/*
+
+
+@media screen and (max-width: 1000px) {
+	p {
+		width: 75%!important;
+	}
+}
+
 @media screen and (max-width: 600px) {
-	.visualization img {
-		width: 90%;
+	p {
+		width: 85%!important;
 	}
 
-	.visualization{
-		flex-direction: column;
+}
+
+@media screen and (max-width: 400px) {
+	p {
+		width: 90%!important;
 	}
-}*/
+
+}
+
+

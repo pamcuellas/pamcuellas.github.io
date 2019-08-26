@@ -13,25 +13,21 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/234c8d2765.js"></script>
-
+    
     <link rel="icon" href="./assets/images/favicon.ico">
     <link rel="stylesheet" type="text/css" href="./assets/css/customizing.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/rain.css">
+
+
 
     <title>PAMZC Portfolio</title>
 </head>
 <body class="back-row-toggle splat-toggle">
 
-    <!-- Make rain -->
-    <div class="rain front-row"></div>
-    <div class="rain back-row"></div>
-    
-
     <div class="container-all ">
         <div class="main">
 
             <nav class="navbar navbar-expand-lg navbar-light" >
-                <a class="navbar-brand lattitude" href="index.html">Portifolio</a>
+                <a class="navbar-brand portifolio" href="index.html">Portifolio</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -49,9 +45,10 @@
                                     Projects
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">
-                                        <span class="fas fa-project-diagram fa-fw fa-lg"></span>
-                                        Project 1
+
+                                    <a class="dropdown-item" href="#" onclick="">
+                                        <span class="fab fa-reddit-alien fa-fw fa-lg"></span>
+                                        Mission to Mars
                                     </a>
                                     <a class="dropdown-item" href="#">
                                         <span class="fas fa-project-diagram fa-fw fa-lg"></span>
@@ -68,7 +65,7 @@
                                 </div>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="https://pamzc-server-pamzc.herokuapp.com">
+                                <a class="nav-link" href="https://pamzc-server-pamzc.herokuapp.com" target="_blank">
                                     <span class="fas fa-map-marker-alt fa-fw fa-lg"></span>
                                     Webpage
                                 </a>
@@ -91,18 +88,40 @@
                 </div>
             </nav> 
         
-            <div class="container-fluid"> 
-                <div class="jumbotron m-5">
-                    <h2 class="display-5"><span class="fas fa-tools" style="margin-right: 10px;"></span>We are under construction</h2>
-                    <hr class="my-4">
+            <div class="container-fluid d-flex flex-column align-items-center"> 
+                <!-- <div class="jumbotron m-3 p-0 w-50"> -->
+<!-- ####################################### MAIN PAGE ####################################### -->
+                    <div id='mainpage' class="position d-flex flex-column justify-content-center align-items-center" >
+                        <h2 class="font-weight-normal mb-3"> <span class="font-weight-normal fab fa-reddit-alien fa-fw fa-lg" style="color:#02b157"></span> MAIN PAGE</h2>
+                    </div>
+
+<!-- ####################################### MISSION TO MARS ####################################### -->
+                    <div id='missiontomars' class="position invisible d-flex flex-column justify-content-center align-items-center" >
+                        <h2 class="font-weight-normal mb-3"> <span class="font-weight-normal fab fa-reddit-alien fa-fw fa-lg" style="color:#02b157"></span> Mission to Mars</h2>
+                        <p  class="text-justify">This is a scrape web application that visits some web sites with Mars subject to get information and pictures. On this page, you can click on links to see the source of that information.</p>
+                        <h6 class="text-center">Resources used to build this application:</h6> 
+                        <ul>    
+                            <li><small>Python</small></li>                      
+                            <li><small>Flask</small></li>
+                            <li><small>Splinter</small></li>
+                            <li><small>flask_pymongo</small></li>
+                            <li><small>JSON</small></li>
+                            <li><small>HTML</small></li>
+                            <li><small>Bootstrap</small></li>
+                            <li><small>Fontawesome</small></li>
+                            <li><small>MongoDB at MongoDB Atlas</small></li>
+                            <li><small>And Heroku as hosting</small></li>
+                        </ul>    
+                        <h6><a href="https://python-scrape-web-mission-mars.herokuapp.com/" target="_blank"><small>Click here to visit it.</small></a></h6>
+                    </div>
                 </div>
-            </div>
+            <!-- </div> -->
         </div>		
     </div>
     <footer class="footer">
-            <span>© 2019 Paulo Cuellas. All rights reserved. </span>
+        <span>© 2019 Paulo Cuellas. All rights reserved. </span>
     </footer>
 
-    <script src="./assets/js/rain.js"></script>      
+    <script src="./assets/js/js.js"></script>      
 </body>
 </html>
