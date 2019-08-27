@@ -2,25 +2,17 @@
 $( ".dropdown-item" ).each(function( ) {
     $( this ).click( function (index) {
 
-      console.log("["+ this.textContent+"]")
       if ($.trim(this.textContent) == 'Mission to Mars') {
-        $("#mainpage").addClass('invisible');
-        $("#mainpage").removeClass('getposition');
-        $("#missiontomars").addClass('getposition');
-        $("#missiontomars").removeClass('invisible');
+        $("#mainpage").addClass('hide-this-thing');
+        $("#missiontomars").removeClass('hide-this-thing');
       } else {
-        $("#missiontomars").addClass('invisible');
-        $("#missiontomars").removeClass('getposition');
-        $("#mainpage").addClass('getposition');
-        $("#mainpage").removeClass('invisible');
+        $("#missiontomars").addClass('hide-this-thing');
+        $("#mainpage").removeClass('hide-this-thing');
         console.log("2")
       }
-
       $(".navbar-collapse").collapse('hide');
-
     });
   });
-
 
 $( ".nav-item" ).each(function( ) {
     $( this ).click( function (index) {
@@ -29,4 +21,9 @@ $( ".nav-item" ).each(function( ) {
         $(".navbar-collapse").collapse('hide');
       }
     });
+});
+
+$(".portifolio").click( function (index) {
+  $("#missiontomars").addClass('hide-this-thing');
+  $("#mainpage").removeClass('hide-this-thing');
 });

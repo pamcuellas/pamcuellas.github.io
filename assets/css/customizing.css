@@ -9,17 +9,8 @@ html, body {
 	max-height: 100%;
 }
 
-
-.container-all {
-	min-height: 100%;
-	background-color: #FFFFFF; /* #212529;*/ 
-}
-
-.main {
-	overflow: auto; 
-	/*padding-bottom: 53px; */
-	padding-bottom: 30%;
-	/*background-color: red*/
+body {
+  position: relative; 
 }
 
 .navbar {
@@ -85,29 +76,26 @@ html, body {
 	font-weight: bold;
 }
 
-h1, h2, h3, h4, h5 {
-	font-family: 'Abhaya Libre', serif;
-}
 
 p {
 	font-family: 'Lora', serif;
 	font-size: 0.9rem;
 	line-height: 1.6rem;
-	color: rgba(0,0,0,.6);
+	color: rgba(0,0,0,.8);
 	width: 50%;
 
 }
 p::first-letter {
 	font-size: 1.5em;
 	padding-left: 1.5em;
-	color: rgba(0,0,0,.5);
+	color: rgba(0,0,0,.6);
  }
 
 
 .footer {
-	/*position: fixed;*/
+	position: absolute;
 	width: 100%;
-	background-color:  #4e5a65;
+	background-color: #4e5a65;
 	height: 50px;
 	margin-top: -50px; 
 	border-top: 3px solid #025db1;
@@ -120,39 +108,12 @@ p::first-letter {
     font-family: 'Montserrat', sans-serif;
 	font-size: 0.7rem;
 	text-align: center;
-	color: white;
+	color: #FFFFFF;
 }
 
-.getposition{
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+.hide-this-thing {
+	display: none!important;
 }
-
-
-/*#mainpage{
-	position: absolute;
-    margin-top: 13%;
-}
-
-#missiontomars {
-	position: absolute;
-    margin-top: 13%;
-}
-*/
-/*
-.content { 
-    margin: 0;
-    position: absolute;
-    top: 52%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-}*/
-
 
 @media screen and (max-width: 991px) {
 
@@ -186,33 +147,30 @@ p::first-letter {
 
 @media screen and (max-width: 600px) {
 	p {
-		width: 85%!important;
+		width: 90%!important;
 	}
 
 }
 
 @media screen and (max-width: 400px) {
 	p {
-		width: 90%!important;
-		line-height: 1rem;
-		font-size: 0.8rem;
+		width: 98%!important;
+		line-height: 1.2rem;
+		font-size: 0.9rem;
 	}
 	li {
-		line-height: 1rem;
+		/*line-height: 1rem;*/
+		font-size: 0.9rem;
+	}
+
+	h2 {
+		font-size: 1.5rem;
 	}
 	.navbar-collapse {
 	    margin-left: 0px; 
 		margin-right:  0px; 
 	    margin-bottom: 20px;
 	}
-/*
-	.getposition {
-		margin-top: 13%;
-	}*/
-
-	/*.main {
-		padding-bottom: 1%;
-	}
-}*/
+}
 
 
