@@ -194,6 +194,11 @@ p::first-letter {
 @media screen and (max-width: 400px) {
 	p {
 		width: 90%!important;
+		line-height: 1rem;
+		font-size: 0.8rem;
+	}
+	li {
+		line-height: 1rem;
 	}
 	.navbar-collapse {
 	    margin-left: 0px; 
