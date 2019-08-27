@@ -5,10 +5,13 @@ $( ".dropdown-item" ).each(function( ) {
       console.log("["+ this.textContent+"]")
       if ($.trim(this.textContent) == 'Mission to Mars') {
         $("#mainpage").addClass('invisible');
+        $("#mainpage").removeClass('getposition');
+        $("#missiontomars").addClass('getposition');
         $("#missiontomars").removeClass('invisible');
-        console.log("1")
       } else {
         $("#missiontomars").addClass('invisible');
+        $("#missiontomars").removeClass('getposition');
+        $("#mainpage").addClass('getposition');
         $("#mainpage").removeClass('invisible');
         console.log("2")
       }
