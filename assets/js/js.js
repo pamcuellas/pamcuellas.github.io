@@ -23,7 +23,14 @@ $( ".nav-item" ).each(function( ) {
     });
 });
 
-$(".portifolio").click( function (index) {
+
+$(".portfolio").click( function (index) {
   $("#missiontomars").addClass('hide-this-thing');
   $("#mainpage").removeClass('hide-this-thing');
+});
+
+
+/*  TOOL TIP  */
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();   
 });

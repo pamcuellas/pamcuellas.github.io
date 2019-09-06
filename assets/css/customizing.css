@@ -23,7 +23,7 @@ body {
 	width: 100%;
 }
 
-.navbar .portifolio {
+.navbar .portfolio {
 	background-color: #4e5a65;
 	color: #FFFFFF;
 	font-weight: bolder;
@@ -38,7 +38,7 @@ body {
 	font-family: 'Abhaya Libre', serif;
 }
 
-.navbar .portifolio:hover {
+.navbar .portfolio:hover {
 	color: rgb(130, 245, 235);
 	transition: all 0.5s ease-in-out;
 }
@@ -121,7 +121,7 @@ p::first-letter {
 		background-color: #4e5a65;
 	}
 
-	.navbar .portifolio {
+	.navbar .portfolio {
 		margin-left: 0px;
 	}
 
