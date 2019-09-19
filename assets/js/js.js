@@ -2,6 +2,8 @@
 $( ".dropdown-item" ).each(function( ) {
     $( this ).click( function (index) {
 
+      console.log("Here we go ", $.trim(this.textContent));
+
       if ($.trim(this.textContent) == 'Mission to Mars') {
         $("#mainpage").addClass('hide-this-thing');
         $("#unveilip").addClass('hide-this-thing');
