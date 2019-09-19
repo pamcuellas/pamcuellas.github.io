@@ -4,8 +4,14 @@ $( ".dropdown-item" ).each(function( ) {
 
       if ($.trim(this.textContent) == 'Mission to Mars') {
         $("#mainpage").addClass('hide-this-thing');
+        $("#unveilip").addClass('hide-this-thing');
         $("#missiontomars").removeClass('hide-this-thing');
+      } else if ($.trim(this.textContent) == 'Unveil IP') {
+        $("#mainpage").addClass('hide-this-thing');
+        $("#missiontomars").addClass('hide-this-thing');
+        $("#unveilip").removeClass('hide-this-thing');
       } else {
+        $("#unveilip").addClass('hide-this-thing');
         $("#missiontomars").addClass('hide-this-thing');
         $("#mainpage").removeClass('hide-this-thing');
         console.log("2")
@@ -25,6 +31,7 @@ $( ".nav-item" ).each(function( ) {
 
 
 $(".portfolio").click( function (index) {
+  $("#unveilip").addClass('hide-this-thing');
   $("#missiontomars").addClass('hide-this-thing');
   $("#mainpage").removeClass('hide-this-thing');
 });
