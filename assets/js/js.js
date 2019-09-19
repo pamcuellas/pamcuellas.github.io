@@ -2,21 +2,28 @@
 $( ".dropdown-item" ).each(function( ) {
     $( this ).click( function (index) {
 
-      console.log("Here we go ", $.trim(this.textContent));
-
       if ($.trim(this.textContent) == 'Mission to Mars') {
         $("#mainpage").addClass('hide-this-thing');
         $("#unveilip").addClass('hide-this-thing');
+        $("#employess-research").addClass('hide-this-thing');
         $("#missiontomars").removeClass('hide-this-thing');
       } else if ($.trim(this.textContent) == 'Unveil IP') {
         $("#mainpage").addClass('hide-this-thing');
         $("#missiontomars").addClass('hide-this-thing');
+        $("#employess-research").addClass('hide-this-thing');
         $("#unveilip").removeClass('hide-this-thing');
+      } else if ($.trim(this.textContent) == 'Employees Research') {
+        console.log("We are here");
+
+        $("#mainpage").addClass('hide-this-thing');
+        $("#missiontomars").addClass('hide-this-thing');
+        $("#unveilip").addClass('hide-this-thing');
+        $("#employees-research").removeClass('hide-this-thing');
       } else {
+        $("#employess-research").addClass('hide-this-thing');
         $("#unveilip").addClass('hide-this-thing');
         $("#missiontomars").addClass('hide-this-thing');
         $("#mainpage").removeClass('hide-this-thing');
-        console.log("2")
       }
       $(".navbar-collapse").collapse('hide');
     });
