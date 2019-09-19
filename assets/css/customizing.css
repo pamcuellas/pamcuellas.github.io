@@ -213,6 +213,11 @@ p::first-letter {
 	    margin-bottom: 20px;
 	}
 
+	#mainpage {
+		padding-top:40px;
+		padding-bottom:70px;
+	}
+
 	#mainpage h5 {
 		width: 100%;
 	} 
