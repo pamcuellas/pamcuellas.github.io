@@ -67,16 +67,16 @@ body {
 	padding: 10px;
 	margin: 15px;
 	background-color: #4e5a65;
-  }
-  
-  .photo .placeholder{
+}
+
+.photo .placeholder{
 	display:inline-block;
 	width:240px;
 	height:187px;
 	box-sizing:border-box;
 	position:relative;
 	background-color: #7a7a7a; 
-  }
+}
 
 #mainpage h5 {
 	width: 40%;
@@ -174,10 +174,20 @@ p::first-letter {
 	p {
 		width: 75%!important;
 	}
+	#mainpage h5 {
+		width: 60%;
+	} 
 }
 
 @media screen and (max-width: 600px) {
 	p {
+		width: 90%!important;
+	}
+	#mainpage h5 {
+		width: 80%;
+	} 
+
+	#mainpage p {
 		width: 90%!important;
 	}
 
@@ -202,6 +212,17 @@ p::first-letter {
 		margin-right:  0px; 
 	    margin-bottom: 20px;
 	}
+
+	#mainpage h5 {
+		width: 100%;
+	} 
+
+	#mainpage p {
+		width: 100%!important;
+	}
+
+
 }
 
 
+ 

@@ -13,7 +13,7 @@ $( ".dropdown-item" ).each(function( ) {
         $("#employees-research").addClass('hide-this-thing');
         $("#unveilip").removeClass('hide-this-thing');
       } else if ($.trim(this.textContent) == 'Employees Research') {
-        console.log("We are here");
+        // console.log("We are here");
 
         $("#mainpage").addClass('hide-this-thing');
         $("#missiontomars").addClass('hide-this-thing');
@@ -42,6 +42,7 @@ $( ".nav-item" ).each(function( ) {
 $(".portfolio").click( function (index) {
   $("#unveilip").addClass('hide-this-thing');
   $("#missiontomars").addClass('hide-this-thing');
+  $("#employees-research").addClass('hide-this-thing');
   $("#mainpage").removeClass('hide-this-thing');
 });
 
