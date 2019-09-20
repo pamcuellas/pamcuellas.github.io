@@ -225,6 +225,7 @@ p::first-letter {
 	#mainpage p {
 		width: 100%!important;
 		margin-top: 1.5rem!important;
+		text-align: justify!important;
 	}
 
 
