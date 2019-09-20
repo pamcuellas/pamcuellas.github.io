@@ -6,23 +6,31 @@ $( ".dropdown-item" ).each(function( ) {
         $("#mainpage").addClass('hide-this-thing');
         $("#unveilip").addClass('hide-this-thing');
         $("#employees-research").addClass('hide-this-thing');
+        $("#latitude-dashboard").addClass('hide-this-thing');
         $("#missiontomars").removeClass('hide-this-thing');
       } else if ($.trim(this.textContent) == 'Unveil IP') {
         $("#mainpage").addClass('hide-this-thing');
         $("#missiontomars").addClass('hide-this-thing');
         $("#employees-research").addClass('hide-this-thing');
+        $("#latitude-dashboard").addClass('hide-this-thing');
         $("#unveilip").removeClass('hide-this-thing');
       } else if ($.trim(this.textContent) == 'Employees Research') {
-        // console.log("We are here");
-
         $("#mainpage").addClass('hide-this-thing');
         $("#missiontomars").addClass('hide-this-thing');
         $("#unveilip").addClass('hide-this-thing');
+        $("#latitude-dashboard").addClass('hide-this-thing');
         $("#employees-research").removeClass('hide-this-thing');
+      } else if ($.trim(this.textContent) == 'Latitude Analysis Dashboard') {
+        $("#mainpage").addClass('hide-this-thing');
+        $("#missiontomars").addClass('hide-this-thing');
+        $("#unveilip").addClass('hide-this-thing');
+        $("#employees-research").addClass('hide-this-thing');
+        $("#latitude-dashboard").removeClass('hide-this-thing');
       } else {
         $("#employees-research").addClass('hide-this-thing');
         $("#unveilip").addClass('hide-this-thing');
         $("#missiontomars").addClass('hide-this-thing');
+        $("#latitude-dashboard").addClass('hide-this-thing');
         $("#mainpage").removeClass('hide-this-thing');
       }
       $(".navbar-collapse").collapse('hide');
@@ -43,8 +51,11 @@ $(".portfolio").click( function (index) {
   $("#unveilip").addClass('hide-this-thing');
   $("#missiontomars").addClass('hide-this-thing');
   $("#employees-research").addClass('hide-this-thing');
+  $("#latitude-dashboard").addClass('hide-this-thing');
   $("#mainpage").removeClass('hide-this-thing');
 });
+
+
 
 
 /*  TOOL TIP  */
