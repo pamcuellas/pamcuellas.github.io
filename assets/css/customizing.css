@@ -213,9 +213,15 @@ p::first-letter {
 	    margin-bottom: 20px;
 	}
 
-	#mainpage {
+	#mainpage,
+	#missiontomars,
+	#unveilip,
+	#employees-research,
+	#latitude-dashboard,
+	#dynamic-filter
+	 {
+		margin-top: 40px; 
 		padding-top:70px;
-		padding-bottom:70px;
 	}
 
 	#mainpage h5 {
