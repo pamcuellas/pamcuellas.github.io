@@ -14,7 +14,7 @@ body {
 }
 
 .navbar {
-	position: fixed;
+	position: absolute;
 	top: 0 ;
 	padding: 0rem 1rem;
 	z-index: 10;
@@ -222,7 +222,8 @@ p::first-letter {
 	#unveilip,
 	#employees-research,
 	#latitude-dashboard,
-	#dynamic-filter
+	#dynamic-filter,
+	#pymaceuticals
 	 {
 		margin-top: 40px; 
 		padding-top:70px;
