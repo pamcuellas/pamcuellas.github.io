@@ -78,6 +78,11 @@ body {
 	background-color: #7a7a7a; 
 }
 
+#mainpage {
+	margin-top: 80px;
+}
+
+
 #mainpage h5 {
 	width: 40%;
 	font-family: 'Lora', serif;
@@ -213,7 +218,6 @@ p::first-letter {
 	    margin-bottom: 20px;
 	}
 
-	#mainpage,
 	#missiontomars,
 	#unveilip,
 	#employees-research,
@@ -223,6 +227,11 @@ p::first-letter {
 		margin-top: 40px; 
 		padding-top:70px;
 	}
+
+	#mainpage {
+		padding-top:70px;
+	}
+
 
 	#mainpage h5 {
 		width: 100%;
