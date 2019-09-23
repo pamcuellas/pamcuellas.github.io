@@ -78,10 +78,20 @@ body {
 	background-color: #7a7a7a; 
 }
 
-#mainpage {
-	margin-top: 80px;
-}
+/* #mainpage {
+	padding-top: 100px!important;
+} */
 
+#mainpage,
+#missiontomars,
+#unveilip,
+#employees-research,
+#latitude-dashboard,
+#dynamic-filter,
+#pymaceuticals
+{
+	padding-top: 100px!important;
+}
 
 #mainpage h5 {
 	width: 40%;
@@ -218,7 +228,7 @@ p::first-letter {
 	    margin-bottom: 20px;
 	}
 
-	#missiontomars,
+	/* #missiontomars,
 	#unveilip,
 	#employees-research,
 	#latitude-dashboard,
@@ -226,7 +236,7 @@ p::first-letter {
 	#pymaceuticals
 	 {
 		padding-top:80px;
-	}
+	} */
 
 	#mainpage h5 {
 		width: 100%;
