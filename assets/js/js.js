@@ -7,30 +7,42 @@ $( ".dropdown-item" ).each(function( ) {
         $("#unveilip").addClass('hide-this-thing');
         $("#employees-research").addClass('hide-this-thing');
         $("#latitude-dashboard").addClass('hide-this-thing');
+        $("#dynamic-filter").addClass('hide-this-thing');
         $("#missiontomars").removeClass('hide-this-thing');
       } else if ($.trim(this.textContent) == 'Unveil IP') {
         $("#mainpage").addClass('hide-this-thing');
         $("#missiontomars").addClass('hide-this-thing');
         $("#employees-research").addClass('hide-this-thing');
         $("#latitude-dashboard").addClass('hide-this-thing');
+        $("#dynamic-filter").addClass('hide-this-thing');
         $("#unveilip").removeClass('hide-this-thing');
       } else if ($.trim(this.textContent) == 'Employees Research') {
         $("#mainpage").addClass('hide-this-thing');
         $("#missiontomars").addClass('hide-this-thing');
         $("#unveilip").addClass('hide-this-thing');
         $("#latitude-dashboard").addClass('hide-this-thing');
+        $("#dynamic-filter").addClass('hide-this-thing');
         $("#employees-research").removeClass('hide-this-thing');
       } else if ($.trim(this.textContent) == 'Latitude Analysis Dashboard') {
         $("#mainpage").addClass('hide-this-thing');
         $("#missiontomars").addClass('hide-this-thing');
         $("#unveilip").addClass('hide-this-thing');
         $("#employees-research").addClass('hide-this-thing');
+        $("#dynamic-filter").addClass('hide-this-thing');
         $("#latitude-dashboard").removeClass('hide-this-thing');
+      } else if ($.trim(this.textContent) == 'D3 Dynamic Filter') {
+        $("#employees-research").addClass('hide-this-thing');
+        $("#unveilip").addClass('hide-this-thing');
+        $("#missiontomars").addClass('hide-this-thing');
+        $("#latitude-dashboard").addClass('hide-this-thing');
+        $("#mainpage").addClass('hide-this-thing');
+        $("#dynamic-filter").removeClass('hide-this-thing');
       } else {
         $("#employees-research").addClass('hide-this-thing');
         $("#unveilip").addClass('hide-this-thing');
         $("#missiontomars").addClass('hide-this-thing');
         $("#latitude-dashboard").addClass('hide-this-thing');
+        $("#dynamic-filter").addClass('hide-this-thing');
         $("#mainpage").removeClass('hide-this-thing');
       }
       $(".navbar-collapse").collapse('hide');
@@ -52,10 +64,9 @@ $(".portfolio").click( function (index) {
   $("#missiontomars").addClass('hide-this-thing');
   $("#employees-research").addClass('hide-this-thing');
   $("#latitude-dashboard").addClass('hide-this-thing');
+  $("#dynamic-filter").addClass('hide-this-thing');
   $("#mainpage").removeClass('hide-this-thing');
 });
-
-
 
 
 /*  TOOL TIP  */
