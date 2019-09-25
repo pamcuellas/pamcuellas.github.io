@@ -67,6 +67,7 @@ body {
 	padding: 10px;
 	margin: 15px;
 	background-color: #4e5a65;
+	margin-top: 30px;
 }
 
 .photo .placeholder{
@@ -86,7 +87,7 @@ body {
 
 #missiontomars,
 #employees-research,
-#pymaceuticals{
+#dynamic-filter{
 	background: #f2f5f8;
 }
 
