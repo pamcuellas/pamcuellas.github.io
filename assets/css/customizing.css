@@ -78,19 +78,16 @@ body {
 	background-color: #7a7a7a; 
 }
 
-/* #mainpage {
-	padding-top: 100px!important;
-} */
-
-#mainpage,
-#missiontomars,
-#unveilip,
-#employees-research,
-#latitude-dashboard,
-#dynamic-filter,
 #pymaceuticals
 {
-	padding-top: 100px!important;
+	padding-top: 90px!important;
+}
+
+
+#missiontomars,
+#employees-research,
+#pymaceuticals{
+	background: #f2f5f8;
 }
 
 #mainpage h5 {
@@ -227,16 +224,6 @@ p::first-letter {
 		margin-right:  0px; 
 	    margin-bottom: 20px;
 	}
-
-	/* #missiontomars,
-	#unveilip,
-	#employees-research,
-	#latitude-dashboard,
-	#dynamic-filter,
-	#pymaceuticals
-	 {
-		padding-top:80px;
-	} */
 
 	#mainpage h5 {
 		width: 100%;
