@@ -89,9 +89,11 @@ body {
 }
 
 #immigration,
-#missiontomars,
-#employees-research,
-#dynamic-filter{
+#d3-plotly,
+#unveilip,
+#latitude-dashboard,
+#weather
+{ 
 	background: #f2f5f8;
 }
 
