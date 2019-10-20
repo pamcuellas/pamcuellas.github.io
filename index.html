@@ -34,6 +34,10 @@
                             Projects
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#leaflet">
+                                <span class="fas fa-house-damage fa-fw fa-lg"></span>
+                                Earthquake and Tectonic plates
+                            </a>
                             <a class="dropdown-item" href="#immigration">
                                 <span class="fas fa-luggage-cart fa-fw fa-lg"></span>
                                 Canada Immigration
@@ -99,7 +103,7 @@
         </div>
     </nav>
     <!-- ******************* MAIN PAGE ******************* -->
-    <div id="mainpage" class="container-fluid d-flex flex-column justify-content-center align-items-center">
+    <div id="mainpage"      class="container-fluid d-flex flex-column justify-content-center align-items-center">
         <div class="mt-1">
             <div class="photo">
                 <div>
@@ -116,8 +120,30 @@
             and webpage are available on the menu above as well. Once more, I would like to thank you for visiting this portfolio.
         </p>
     </div>
+    <!-- ******************* Leaflet-GeoJSON ******************* -->
+    <div id="leaflet"   class="h-100 mt-5 pt-5 container-fluid d-flex flex-column justify-content-center align-items-center">
+        <h2 class="font-weight-normal mb-3 text-center" > <span class="fas fa-house-damage fa-fw fa-lg" style="color:#007991">
+        </span> Tectonic plates vs seismic activity </h2>
+        <p  class="text-justify"> In this Leaflet map, we can see how the earthquakes are closely connected to tectonic plates. 
+        The visualization combines two datasets: the first one comes from the United States Geological Survey (USGS), it is a JSON URL with 
+        Earthquakes data from the Past 7 Days', updated every 5 minutes. The second is a tectonic plates JSON file available at 
+        <a href="https://github.com/fraxen/tectonicplates" target="_blank"> GitHub.</a>
+        </p>
+        <p  class="text-justify">The page provides us different options for map styles besides the tooltips with information about the 
+            seismic activities registered. 
+        </p>
+        <h6 class="text-center">Technologies used to build this application:</h6> 
+        <ul>    
+            <li>Leaflet</li>  
+            <li>geJson</li>  
+            <li>D3</li>  
+            <li>HTML5 and CSS3.</li>
+        </ul>    
+        <h6><a href="https://pamcuellas.github.io/leaflet-challenge/Leaflet-Step-2/" target="_blank""><small>Click here to visit it online.</small></a></h6>
+        <h6><a href="https://github.com/pamcuellas/leaflet-challenge/" target="_blank"><small>Click here to visit the project on GitHub .</small></a></h6>
+    </div>
     <!-- ******************* Canada - Immigration ******************* -->
-    <div id="immigration" class="h-100 mt-5 pt-5 container-fluid d-flex flex-column justify-content-center align-items-center">
+    <div id="immigration"   class="h-100 mt-5 pt-5 container-fluid d-flex flex-column justify-content-center align-items-center">
         <h2 class="font-weight-normal mb-3 text-center" > <span class="fas fa-luggage-cart fa-fw fa-lg" style="color:#7B4696"></span> Canada Immigration from 1980 to 2013</h2>
         <p  class="text-justify">Canadian immigration is ever-changing, and the areas from which immigration to Canada is prevalent changes every year. 
             This SPA displays the different areas and levels of wealth of the Countries that Canadian immigrants are coming from. 
@@ -136,7 +162,7 @@
         <h6><a href="https://github.com/amandagward/groupassignment_project_2" target="_blank"><small>Click here to visit the project on GitHub .</small></a></h6>
     </div>
     <!-- ******************* D3 Challenge ******************* -->
-    <div id="d3-challenge" class="h-100 mt-5 pt-5 container-fluid d-flex flex-column justify-content-center align-items-center">
+    <div id="d3-challenge"  class="h-100 mt-5 pt-5 container-fluid d-flex flex-column justify-content-center align-items-center">
         <h2 class="font-weight-normal mb-3 text-center" > <span class="fas fa-heartbeat fa-fw fa-lg" style="color:#ff0040"></span> Correlation between health and Income</h2>
         <p  class="text-justify">The project is a data visualization work to present information from the U.S. Census Bureau and the Behavioral Risk Factor 
             Surveillance System.
@@ -156,7 +182,7 @@
         <h6><a href="https://github.com/pamcuellas/D3-Challenge-Data-Visualization" target="_blank"><small>Click here to visit the project on GitHub .</small></a></h6>
     </div>
     <!-- ******************* D3 Plotly BBB ******************* -->
-    <div id="d3-plotly" class="h-100 mt-5 pt-5 container-fluid d-flex flex-column justify-content-center align-items-center">
+    <div id="d3-plotly"     class="h-100 mt-5 pt-5 container-fluid d-flex flex-column justify-content-center align-items-center">
             <h2 class="font-weight-normal mb-3 text-center" > <span class="fas fa-chart-pie fa-fw fa-lg" style="color:#4ECDC4"></span> Belly Button Biodiversity</h2>
             <p  class="text-justify">This Single Page Application is an interactive dashboard to explore a Belly Button Biodiversity dataset, which 
                 catalogues the microbes that colonize human navels.</p>
@@ -174,7 +200,7 @@
             </ul>    
             <h6><a href="https://pamcuellas.github.io/D3-Plotly-InteractiveDashBoard/index.html" target="_blank"><small>Click here to visit it online.</small></a></h6>
             <h6><a href="https://github.com/pamcuellas/D3-Plotly-InteractiveDashBoard" target="_blank"><small>Click here to visit the project on GitHub .</small></a></h6>
-        </div>
+    </div>
     <!-- ******************* MISSION TO MARS ******************* -->
     <div id="missiontomars" class="h-100 mt-5 pt-5 container-fluid d-flex flex-column justify-content-center align-items-center">
         <h2 class="font-weight-normal mb-3"> <span class="fas fa-rocket fa-fw fa-lg" style="color:#02b157"></span> Mission to Mars</h2>
@@ -197,7 +223,7 @@
         <h6><a href="https://github.com/pamcuellas/ScrapingDataFromWebsites" target="_blank"><small>Click here to visit the project on GitHub .</small></a></h6>
     </div>
     <!-- ******************* Unveil IP ******************* -->
-    <div id="unveilip" class="h-100 mt-5 pt-5 container-fluid d-flex flex-column justify-content-center align-items-center">
+    <div id="unveilip"      class="h-100 mt-5 pt-5 container-fluid d-flex flex-column justify-content-center align-items-center">
         <h2 class="font-weight-normal mb-3"> <span class="font-weight-normal fas fa-eye fa-fw fa-lg" style="color:purple"></span> Unveil IP</h2>
         <p  class="text-justify">This is a Single-Page Application where we can type an IP to get information about that IP location like country, state or province, city, latitude, longitude, zip code, and time zone.</p>
         <h6 class="text-center">Resources used to build this application:</h6> 
@@ -269,7 +295,7 @@
         <h6><a href="https://github.com/pamcuellas/D3-Dynamic-Filters" target="_blank"><small>Click here to visit the project on GitHub.</small></a></h6>
     </div>
     <!-- ******************* Weather Python Analysis ******************* -->
-    <div id="weather" class="h-100 mt-5 pt-5 container-fluid d-flex flex-column justify-content-center align-items-center">
+    <div id="weather"       class="h-100 mt-5 pt-5 container-fluid d-flex flex-column justify-content-center align-items-center">
             <h2 class="font-weight-normal mb-3"> <span class="fas fa-cloud-sun-rain fa-fw fa-lg" style="color:#00A8E8"></span> Weather Python Analysis</h2>
             <p  class="text-justify">The goal of this project was to build a Python Jupyter notebook to analyse the weather of 500+ cities across the 
                 world of varying distance from the equator, and then answer the question "What is the weather like as we approach the equator?".
