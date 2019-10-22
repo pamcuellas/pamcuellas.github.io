@@ -5,11 +5,17 @@ $(".portfolio").click( function (index) {
 });
 
 // Force colapse hide when a menu link is clicked 
-$( ".dropdown-item" ).click( function (index) {
-  $(".navbar-collapse").collapse('hide');
+$( ".nav-item" ).each(function( i, obj) {
+  $( this ).click( function (index) {
+     if ( $('.nav-item').index(this) != 1) {
+        $(".navbar-collapse").collapse('hide');
+    }
+  });
 });
-$( ".nav-item" ).click( function (index) {
-  $(".navbar-collapse").collapse('hide');
+$( ".dropdown-item" ).each(function( ) {
+  $( this ).click( function (index) {
+    $(".navbar-collapse").collapse('hide');
+  });
 });
 
 /*  TOOLTIP  */
