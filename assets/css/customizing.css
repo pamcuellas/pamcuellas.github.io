@@ -85,12 +85,21 @@ body {
 {
 	padding-top: 90px!important;
 }
-#mainpage,
-#immigration,
-#d3-plotly,
+
+
+
+/* #mainpage, */
 #unveilip,
-#latitude-dashboard,
-#weather
+/* #leaflet, */
+#immigration,
+/* #d3-challenge, */
+#d3-plotly,
+/* #missiontomars, */
+#employees-research,
+/* #latitude-dashboard, */
+#dynamic-filter,
+/* #weather, */
+#pymaceuticals
 { 
 	background: #f2f5f8;
 }
