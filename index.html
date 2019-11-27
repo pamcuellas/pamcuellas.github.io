@@ -38,6 +38,10 @@
                                 <span class="fab fa-twitter fa-fw fa-lg"></span>
                                 Tweet - Sentiment Analysis
                             </a>
+                            <a class="dropdown-item" href="#immigration">
+                                <span class="fas fa-luggage-cart fa-fw fa-lg"></span>
+                                Canada Immigration
+                            </a>
                             <a class="dropdown-item" href="#unveilip">
                                 <span class="fas fa-eye fa-fw fa-lg"></span>
                                 Unveil IP
@@ -45,10 +49,6 @@
                             <a class="dropdown-item" href="#leaflet">
                                 <span class="fas fa-house-damage fa-fw fa-lg"></span>
                                 Earthquake vs Tectonic plates
-                            </a>
-                            <a class="dropdown-item" href="#immigration">
-                                <span class="fas fa-luggage-cart fa-fw fa-lg"></span>
-                                Canada Immigration
                             </a>
                             <a class="dropdown-item" href="#d3-challenge">
                                 <span class="fas fa-heartbeat fa-fw fa-lg"></span>
@@ -126,27 +126,44 @@
     </div>
     <!-- ******************* Machine Learning - Tweet Sentiment Analysis ******************* -->
     <div id="ml-tweet"      class="h-100 mt-5 pt-5 container-fluid d-flex flex-column justify-content-center align-items-center">
-            <h2 class="font-weight-normal mb-3"> <span class="fab fa-twitter fa-fw fa-lg" style="color:#1DA1F2"></span> Tweet Sentiment Analysis</h2>
-            <p  class="text-justify">This is a Machine Learning application that applies Logistic Regression to classify tweets text in positive or negative 
-                and also in political or not political. The subject is the speech of Greta Thunberg about climate change done on September 23, 2019, 
-                on the United Nations.</p>
-            <h6 class="text-center">The main technologies used by this application are:</h6> 
-            <ul>    
-                <li data-toggle="tooltip" title="Libraries pymongo, pickle (to save and load the model), sklearn, nltk, pandas, re (to clean up the data), tweepy (to use the Twitter API), searchtweets, seaborn, word cloud, and matplotlib.">Python</li>                      
-                <li>Flask</li>
-                <li>jQuery, D3, and Plotly</li>
-                <li>JSON</li>
-                <li>jQuery, HTML5, and CCS3</li>
-                <li>Bootstrap</li>
-                <li>Tableau</li>
-                <li>Heroku hosting the Application</li>
-                <li>And MongoDB Atlas as database hosting</li>
-            </ul>    
-            <h6><a href="https://ml-tweet-sentiment-analysis.herokuapp.com/" target="_blank"><small>Click here to visit it online. </small></a></h6>
-            <h6><a href="https://github.com/pamcuellas/ML-Tweet-Sentiment-Analysis" target="_blank"><small>Click here to visit the project on GitHub .</small></a></h6>
-        </div>
-    
-
+        <h2 class="font-weight-normal mb-3"> <span class="fab fa-twitter fa-fw fa-lg" style="color:#1DA1F2"></span> Tweet Sentiment Analysis</h2>
+        <p  class="text-justify">This is a Machine Learning application that applies Logistic Regression to classify tweets text in positive or negative 
+            and also in political or not political. The subject is the speech of Greta Thunberg about climate change done on September 23, 2019, 
+            on the United Nations.</p>
+        <h6 class="text-center">The main technologies used by this application are:</h6> 
+        <ul>    
+            <li data-toggle="tooltip" title="Libraries pymongo, pickle (to save and load the model), sklearn, nltk, pandas, re (to clean up the data), tweepy (to use the Twitter API), searchtweets, seaborn, word cloud, and matplotlib.">Python</li>                      
+            <li>Flask</li>
+            <li>jQuery, D3, and Plotly</li>
+            <li>JSON</li>
+            <li>jQuery, HTML5, and CCS3</li>
+            <li>Bootstrap</li>
+            <li>Tableau</li>
+            <li>Heroku hosting the Application</li>
+            <li>And MongoDB Atlas as database hosting</li>
+        </ul>    
+        <h6><a href="https://ml-tweet-sentiment-analysis.herokuapp.com/" target="_blank"><small>Click here to visit it online. </small></a></h6>
+        <h6><a href="https://github.com/pamcuellas/ML-Tweet-Sentiment-Analysis" target="_blank"><small>Click here to visit the project on GitHub .</small></a></h6>
+    </div>
+    <!-- ******************* Canada - Immigration ******************* -->
+    <div id="immigration"   class="h-100 mt-5 pt-5 container-fluid d-flex flex-column justify-content-center align-items-center">
+        <h2 class="font-weight-normal mb-3 text-center" > <span class="fas fa-luggage-cart fa-fw fa-lg" style="color:#7B4696"></span> Canada Immigration from 1980 to 2013</h2>
+        <p  class="text-justify">Canadian immigration is ever-changing, and the areas from which immigration to Canada is prevalent changes every year. 
+            This SPA displays the different areas and levels of wealth of the Countries that Canadian immigrants are coming from. 
+            In a bar graph form and world map, it is presented the world regions and Development status of immigration to Canada, by showing the count of immigrants 
+            associated with each. The application provides filters to select the different groups and years.
+        </p>
+        <h6 class="text-center">Technologies used to build this application:</h6> 
+        <ul>    
+            <li>Python: Flask, flask_pymongo, and Pandas</li>  
+            <li>JS libraries: D3, Leaflet, Chart.js, and jQuery</li>  
+            <li>HTML5, CSS3, Bootstrap, and Fontawesome</li>
+            <li>MongoDB at MongoDB Atlas</li>
+            <li>And Heroku as application hosting</li>
+        </ul>    
+        <h6><a href="https://world-migration-stats.herokuapp.com/" target="_blank""><small>Click here to visit it online.</small></a></h6>
+        <h6><a href="https://github.com/amandagward/groupassignment_project_2" target="_blank"><small>Click here to visit the project on GitHub .</small></a></h6>
+    </div>
     <!-- ******************* Unveil IP ******************* -->
     <div id="unveilip"      class="h-100 mt-5 pt-5 container-fluid d-flex flex-column justify-content-center align-items-center">
         <h2 class="font-weight-normal mb-3"> <span class="font-weight-normal fas fa-eye fa-fw fa-lg" style="color:purple"></span> Unveil IP</h2>
@@ -189,25 +206,6 @@
         </ul>    
         <h6><a href="https://leaflet-geojson-earthquake.herokuapp.com/" target="_blank""><small>Click here to visit it online.</small></a></h6>
         <h6><a href="https://github.com/pamcuellas/leaflet-challenge/" target="_blank"><small>Click here to visit the project on GitHub .</small></a></h6>
-    </div>
-    <!-- ******************* Canada - Immigration ******************* -->
-    <div id="immigration"   class="h-100 mt-5 pt-5 container-fluid d-flex flex-column justify-content-center align-items-center">
-        <h2 class="font-weight-normal mb-3 text-center" > <span class="fas fa-luggage-cart fa-fw fa-lg" style="color:#7B4696"></span> Canada Immigration from 1980 to 2013</h2>
-        <p  class="text-justify">Canadian immigration is ever-changing, and the areas from which immigration to Canada is prevalent changes every year. 
-            This SPA displays the different areas and levels of wealth of the Countries that Canadian immigrants are coming from. 
-            In a bar graph form and world map, it is presented the world regions and Development status of immigration to Canada, by showing the count of immigrants 
-            associated with each. The application provides filters to select the different groups and years.
-        </p>
-        <h6 class="text-center">Technologies used to build this application:</h6> 
-        <ul>    
-            <li>Python: Flask, flask_pymongo, and Pandas</li>  
-            <li>JS libraries: D3, Leaflet, Chart.js, and jQuery</li>  
-            <li>HTML5, CSS3, Bootstrap, and Fontawesome</li>
-            <li>MongoDB at MongoDB Atlas</li>
-            <li>And Heroku as application hosting</li>
-        </ul>    
-        <h6><a href="https://world-migration-stats.herokuapp.com/" target="_blank""><small>Click here to visit it online.</small></a></h6>
-        <h6><a href="https://github.com/amandagward/groupassignment_project_2" target="_blank"><small>Click here to visit the project on GitHub .</small></a></h6>
     </div>
     <!-- ******************* D3 Challenge ******************* -->
     <div id="d3-challenge"  class="h-100 mt-5 pt-5 container-fluid d-flex flex-column justify-content-center align-items-center">
