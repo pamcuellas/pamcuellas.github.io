@@ -251,6 +251,13 @@ p::first-letter {
 		text-align: justify!important;
 	}
 
+	img {
+		max-width:330px!important;
+	}
+
+	.social-media span {
+		font-size: 0.8rem!important;
+	}	
 
 }
 
