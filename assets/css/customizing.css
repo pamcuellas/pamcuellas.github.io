@@ -255,4 +255,45 @@ p::first-letter {
 }
 
 
- 
+/* CONTACT PAGE */
+
+#contact {
+    position: absolute;
+    top:  48%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+img {
+	display: block;
+	max-width:500px;
+	width: auto;
+	height: auto;
+  } 
+
+ .social-media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+ .social-media span {
+    font-size: 1.2em;
+  }
+
+  .social {
+	  margin: 1rem;
+  }
+
+ .fab{
+    margin-top: 0.5em;
+    transition: all 0.6s ease-out!important;  
+  }
+ .fab:hover{
+	opacity: 0.5!important;
+  }
+  
+ .social-media a i  {
+    height: 30px;
+  }
+  
+  
