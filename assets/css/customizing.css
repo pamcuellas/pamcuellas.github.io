@@ -259,6 +259,14 @@ p::first-letter {
 		font-size: 0.8rem!important;
 	}	
 
+	.nav-contact {
+		background-color: #47665c!important;
+	}
+	.nav-contact a{
+		background-color: #FFF!important;
+		color: #47665c!important;
+	}
+
 }
 
 
