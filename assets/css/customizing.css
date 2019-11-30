@@ -158,7 +158,7 @@ p::first-letter {
 	background-color: #4e5a65;
 	height: 50px;
 	margin-top: -50px; 
-	border-top: 3px solid #025db1;
+	border-top: 3px solid #0275d8;
 	display: flex;
 	flex-direction: column; 
 	justify-content: center;
